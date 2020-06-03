@@ -1,2 +1,2 @@
 # zipcode-info
-Zip Code Finder
+Zip code finder using the zippopotam.us api
