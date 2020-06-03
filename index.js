@@ -145,7 +145,6 @@ let body = document.querySelector('body');
 body.addEventListener('click', deleteLocation);
 
 function deleteLocation(e) {
-  //console.log(e.target);
   if (e.target.className == 'delete') {
     document.querySelector('.message').remove();
     input.value = '';
