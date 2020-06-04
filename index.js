@@ -64,7 +64,7 @@ function getLocationInfo(e) {
   const ctry = country.value;
 
   //* make request
-  fetch(`http://api.zippopotam.us/${ctry}/${zip}`)
+  fetch(`https://api.zippopotam.us/${ctry}/${zip}`)
     .then((response) => {
       if (response.status != 200) {
         showIcon('remove');
